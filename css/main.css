@@ -1,0 +1,428 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "slick";
+  src: url("fonts/slick.eot?") format("eot"), url("fonts/slick.woff2") format("woff2"), url("fonts/slick.woff") format("woff"), url("fonts/slick.ttf") format("truetype"), url("fonts/slick.svg#slick") format("svg"); }
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("fonts/roboto-bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto edium";
+  src: url("fonts/roboto-medium.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("fonts/roboto-regular.ttf") format("truetype"); }
+/* line 10, ../sass/main.sass */
+button span {
+  margin-right: 0; }
+
+/* line 13, ../sass/main.sass */
+.fonts_for_block {
+  color: white;
+  font-family: "Roboto Regular", Arial; }
+  /* line 16, ../sass/main.sass */
+  .fonts_for_block:last-child {
+    margin-right: 0; }
+
+/* line 19, ../sass/main.sass */
+.navbar {
+  width: 100%; }
+  /* line 21, ../sass/main.sass */
+  .navbar ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+
+/* line 30, ../sass/main.sass */
+.menu-section .menu-section-list a:hover {
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #FFF200;
+  color: black; }
+/* line 36, ../sass/main.sass */
+.menu-section .menu-section-list .active a {
+  text-decoration: none;
+  color: black; }
+
+/* line 41, ../sass/main.sass */
+.AboutUsBlock img {
+  width: 100%;
+  height: auto; }
+
+/* line 46, ../sass/main.sass */
+.specialOffer {
+  margin-top: 48px;
+  margin-bottom: 60px;
+  align-items: center;
+  width: 100%;
+  height: 307px;
+  background-color: yellow;
+  padding: 4px; }
+  /* line 54, ../sass/main.sass */
+  .specialOffer .myTool {
+    margin-top: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0 20px; }
+    /* line 60, ../sass/main.sass */
+    .specialOffer .myTool span {
+      color: black;
+      font-size: 20px;
+      font-family: "Roboto Bold", arial;
+      margin-bottom: 47px; }
+    /* line 65, ../sass/main.sass */
+    .specialOffer .myTool p {
+      color: black;
+      font-size: 17px;
+      font-family: "Roboto Bold", arial; }
+    /* line 69, ../sass/main.sass */
+    .specialOffer .myTool a {
+      color: #FFFF00;
+      padding: 7.5px 0px 0px 0;
+      text-align: center;
+      border-radius: 11px;
+      font-family: "Roboto Medium", arial;
+      font-size: 16px;
+      background-color: #333333;
+      width: 200px;
+      height: 40px;
+      cursor: pointer; }
+  /* line 80, ../sass/main.sass */
+  .specialOffer .houseOffer {
+    align-items: center;
+    display: flex;
+    align-items: center; }
+    /* line 84, ../sass/main.sass */
+    .specialOffer .houseOffer img {
+      max-height: 300px;
+      width: 100%; }
+  /* line 87, ../sass/main.sass */
+  .specialOffer .miniHouse {
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row-reverse; }
+    /* line 92, ../sass/main.sass */
+    .specialOffer .miniHouse .housePng {
+      width: 40px;
+      height: 40px;
+      margin-top: 23px; }
+
+/* line 97, ../sass/main.sass */
+.infoBlock {
+  margin-bottom: 55px; }
+  /* line 99, ../sass/main.sass */
+  .infoBlock span {
+    color: #000;
+    font-size: 30px;
+    font-family: "Roboto Bold", Arial; }
+
+/* line 104, ../sass/main.sass */
+.informBlock {
+  margin-bottom: 80px; }
+  /* line 106, ../sass/main.sass */
+  .informBlock span {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: block;
+    color: #000;
+    font-family: "Roboto Bold", arial;
+    font-size: 21px; }
+  /* line 114, ../sass/main.sass */
+  .informBlock ul li {
+    font-family: "Roboto Regular", arial;
+    line-height: 33px; }
+
+/* line 118, ../sass/main.sass */
+.activeBlock {
+  background-color: #FFFF00; }
+  /* line 120, ../sass/main.sass */
+  .activeBlock h2 {
+    text-align: left;
+    color: black;
+    display: block;
+    font-size: 30px;
+    font-family: "Roboto Bold", Arial; }
+    /* line 126, ../sass/main.sass */
+    .activeBlock h2 span {
+      font-family: "Roboto Regular", Arial;
+      font-size: 20px;
+      color: black; }
+  /* line 130, ../sass/main.sass */
+  .activeBlock .blockWithActivePhoto {
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    text-align: center; }
+    /* line 134, ../sass/main.sass */
+    .activeBlock .blockWithActivePhoto .blockWhithButton {
+      margin-top: 30px; }
+    /* line 136, ../sass/main.sass */
+    .activeBlock .blockWithActivePhoto a {
+      text-align: center;
+      padding: 15px 70px 15px 70px;
+      color: #D7D70A;
+      background-color: #333333;
+      font-family: "Roboto Regular", Arial;
+      font-size: 14px; }
+
+/* line 144, ../sass/main.sass */
+.ideasOfourClients {
+  margin-bottom: 40px; }
+  /* line 146, ../sass/main.sass */
+  .ideasOfourClients h2 {
+    color: #000;
+    font-family: "Roboto Bold", Arial;
+    font-size: 30px; }
+
+/* line 151, ../sass/main.sass */
+.blockWithSlider {
+  margin-bottom: 55px; }
+  /* line 153, ../sass/main.sass */
+  .blockWithSlider span {
+    color: #000;
+    font-family: "Roboto Bold", Arial;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    margin-top: 15px; }
+  /* line 160, ../sass/main.sass */
+  .blockWithSlider .slider {
+    position: relative;
+    margin-bottom: 42px;
+    height: 345px; }
+
+/* line 167, ../sass/main.sass */
+.underSlider .row div {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center; }
+/* line 172, ../sass/main.sass */
+.underSlider span {
+  color: black;
+  font-size: 15px;
+  font-family: "Roboto Bold", Arial;
+  display: block;
+  text-align: center;
+  margin-top: 10px; }
+/* line 179, ../sass/main.sass */
+.underSlider a {
+  width: 262px;
+  display: block;
+  background-color: yellow;
+  background-size: cover;
+  background-image: url("../img/луп-min.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+/* line 188, ../sass/main.sass */
+.underSlider img:hover {
+  opacity: 0.4; }
+
+/* line 191, ../sass/main.sass */
+.twoSteps {
+  margin-bottom: 50px; }
+  /* line 193, ../sass/main.sass */
+  .twoSteps h2 {
+    font-size: 30px;
+    font-family: "Roboto Bold", Arial;
+    color: black; }
+
+/* line 199, ../sass/main.sass */
+.contentBlock .row {
+  margin-bottom: 80px; }
+  /* line 201, ../sass/main.sass */
+  .contentBlock .row div {
+    text-align: center; }
+/* line 203, ../sass/main.sass */
+.contentBlock span {
+  font-family: "Roboto Bold", Arial;
+  font-size: 22px;
+  color: black;
+  position: relative; }
+/* line 209, ../sass/main.sass */
+.contentBlock p {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-family: "Roboto Regular", Arial;
+  font-size: 17px;
+  color: black; }
+/* line 215, ../sass/main.sass */
+.contentBlock .line {
+  margin: 20px auto;
+  width: 130px;
+  height: 3px;
+  background-color: #FFFF00; }
+
+/* line 221, ../sass/main.sass */
+.beginBlockAboutUS {
+  margin-bottom: 36px; }
+  /* line 223, ../sass/main.sass */
+  .beginBlockAboutUS h2 {
+    font-size: 30px;
+    font-family: "Roboto Bold", Arial;
+    color: black; }
+
+/* line 228, ../sass/main.sass */
+.AboutUsBlock {
+  margin-bottom: 80px; }
+  /* line 230, ../sass/main.sass */
+  .AboutUsBlock p {
+    color: black;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: "Roboto Regular", Arial; }
+  /* line 235, ../sass/main.sass */
+  .AboutUsBlock a {
+    display: block;
+    margin: 30px auto;
+    color: #FFFF00;
+    padding: 7.5px 0px 0px 0;
+    text-align: center;
+    border-radius: 11px;
+    font-family: "Roboto Medium", arial;
+    font-size: 16px;
+    background-color: #333333;
+    width: 200px;
+    height: 40px; }
+
+/* line 248, ../sass/main.sass */
+.ContatcFirstBlock {
+  margin-bottom: 30px;
+  position: relative; }
+  /* line 251, ../sass/main.sass */
+  .ContatcFirstBlock h2 {
+    color: black;
+    font-size: 30px;
+    font-family: "Roboto Bold", Arial; }
+  /* line 256, ../sass/main.sass */
+  .ContatcFirstBlock .contacts {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/poligon-min.png");
+    background-size: cover; }
+  /* line 266, ../sass/main.sass */
+  .ContatcFirstBlock iframe {
+    display: block;
+    margin: 0 auto; }
+
+/* line 271, ../sass/main.sass */
+.myRowControl .flexFOrDiv {
+  display: flex;
+  flex-direction: row-reverse; }
+
+/* line 275, ../sass/main.sass */
+.textAlign {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 400px;
+  padding: 0; }
+
+/* line 284, ../sass/main.sass */
+.formContact {
+  flex-direction: column;
+  display: flex;
+  align-items: left;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 400px; }
+
+/* line 293, ../sass/main.sass */
+.formContact .headerContant {
+  font-family: "Roboto Bold", Arial;
+  font-size: 20px;
+  font-weight: bold; }
+  /* line 297, ../sass/main.sass */
+  .formContact .headerContant span {
+    font-family: "Roboto Regular", Arial;
+    font-size: 17px; }
+
+/* line 301, ../sass/main.sass */
+.contactBLock {
+  border: 3px solid #FFFF00;
+  position: relative;
+  margin-bottom: 100px;
+  max-height: 500px;
+  height: 466px; }
+  /* line 307, ../sass/main.sass */
+  .contactBLock span {
+    font-family: "Roboto Regular", Arial;
+    font-size: 18px;
+    color: #000;
+    display: block; }
+  /* line 312, ../sass/main.sass */
+  .contactBLock textarea {
+    margin-bottom: 20px;
+    width: 264px;
+    height: 110px;
+    outline-color: #FFFF00;
+    box-shadow: 0 0 10px #FFFF00;
+    border: 1px solid; }
+  /* line 319, ../sass/main.sass */
+  .contactBLock form {
+    pointer-events: auto;
+    text-align: end;
+    width: 276px;
+    height: 400px; }
+    /* line 324, ../sass/main.sass */
+    .contactBLock form span {
+      letter-spacing: 2px; }
+    /* line 326, ../sass/main.sass */
+    .contactBLock form button {
+      display: block;
+      margin-left: 12px;
+      border: 1px solid black;
+      background-color: white;
+      padding: 5px 27px;
+      outline-color: #FFFF00;
+      box-shadow: 0 0 10px #FFFF00;
+      cursor: pointer; }
+  /* line 335, ../sass/main.sass */
+  .contactBLock input {
+    border: 1px solid;
+    margin-bottom: 20px;
+    width: 264px;
+    height: 35px;
+    box-shadow: 0 0 10px #FFFF00;
+    padding: 0 10px; }
+  /* line 342, ../sass/main.sass */
+  .contactBLock .myRowControl {
+    padding: 13px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center; }
+  /* line 351, ../sass/main.sass */
+  .contactBLock .contacts .myRowControl span {
+    color: black; }
+  /* line 353, ../sass/main.sass */
+  .contactBLock .map {
+    position: relative;
+    z-index: 0;
+    text-align: center; }
+    /* line 357, ../sass/main.sass */
+    .contactBLock .map img {
+      position: absolute;
+      left: 0;
+      z-index: 1;
+      width: 95%;
+      height: 100%;
+      pointer-events: none; }
+  /* line 364, ../sass/main.sass */
+  .contactBLock .contacts {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none; }
+
+/*# sourceMappingURL=main.css.map */

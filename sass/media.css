@@ -1,0 +1,250 @@
+@media only screen and (max-width: 320px) {
+  .formContact span:nth-child(3) {
+    margin-right: 0px; }
+
+  .myRowControl .textAlign img:first-child {
+    margin-left: 10px; }
+  .myRowControl form span {
+    letter-spacing: 1px;
+    margin-top: 10px; } }
+@media all and (min-width: 320px) and (max-width: 400px) {
+  .blockWhithOffer .row .position_for_block .special {
+    width: 133px;
+    font-size: 14px; }
+  .blockWhithOffer .row .position_for_block .media_for_block h1 {
+    font-size: 36px; } }
+@media screen and (max-width: 520px) {
+  .position_for_block {
+    display: block;
+    height: 250px; }
+
+  .parents h2 {
+    font-size: 25px; }
+
+  .specialOffer .row .houseOffer img {
+    height: auto; }
+
+  .footer_block {
+    display: flex;
+    flex-direction: column; }
+    .footer_block .colorfull {
+      font-size: 12px; }
+
+  #prev-btn {
+    display: flex;
+    align-items: center; }
+    #prev-btn img {
+      width: 50%; }
+
+  #next-btn {
+    display: flex;
+    justify-content: right;
+    align-items: center; }
+    #next-btn img {
+      width: 50%; } }
+@media all and (max-width: 700px) {
+  .my_row {
+    flex-direction: column; } }
+@media all and (max-width: 770px) {
+  .specialOffer .miniHouse {
+    display: none; }
+  .specialOffer .houseOffer {
+    display: none; }
+
+  .specialOffer .myTool {
+    text-align: center;
+    margin: 40px auto; }
+    .specialOffer .myTool a {
+      margin: auto; } }
+@media all and (min-width: 320px) and (max-width: 800px) {
+  .blockWithSlider {
+    display: none; }
+
+  #prev-btn img {
+    width: 70%; }
+
+  #next-btn img {
+    width: 70%; }
+
+  .my_row {
+    justify-content: center; }
+
+  .class_for_P {
+    text-align: center; }
+
+  .contactBLock {
+    max-height: 600px;
+    height: 517px; }
+    .contactBLock .textAlign {
+      justify-content: space-around; }
+    .contactBLock .formContact span span {
+      font-size: 10px; }
+
+  .AboutUsBlock .row img {
+    width: 95%; }
+
+  .specialOffer .houseOffer img {
+    height: 355px;
+    max-height: 400px; }
+
+  .row .miniHouse {
+    padding-right: 16px;
+    padding-bottom: 10px; }
+
+  .blockWhithOffer .row .position_for_block .footer_block {
+    width: 94.8%;
+    font-size: 11px; } }
+@media all and (min-width: 800px) and (max-width: 1000px) {
+  .blockWhithOffer .row .position_for_block .footer_block {
+    text-transform: uppercase;
+    font-family: "Roboto Regular", Arial;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    width: 96%;
+    height: 50px; } }
+@media screen and (max-width: 990px) {
+  .footer_menu {
+    margin-bottom: 0; }
+
+  .colFOrdiv {
+    webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%; }
+
+  .colForUnder {
+    webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%; }
+
+  .panel {
+    display: block;
+    background-color: transparent; }
+    .panel button {
+      outline: 0;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      font-size: 35px;
+      color: white; }
+
+  .navigation .navbar {
+    margin-left: auto; }
+
+  .activeBlock {
+    background-color: #FFFF00; }
+    .activeBlock h2 {
+      text-align: center;
+      font-size: 100%; }
+
+  .parents {
+    justify-content: center; }
+
+  .contentBlock .row {
+    margin-bottom: 80px; }
+  .contentBlock img {
+    width: 100%;
+    height: auto; }
+
+  .hr_line {
+    display: none; }
+
+  ul {
+    list-style: none; }
+
+  .underSlider img {
+    margin-bottom: 20px;
+    display: block;
+    margin: auto; }
+
+  .informBlock .row {
+    text-align: center; }
+
+  .blockWithSlider .slick-next {
+    left: 861px; } }
+@media all and (max-width: 1200px) {
+  .container {
+    overflow-x: hidden; }
+
+  .underSlider .row div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  .myRowControl .textAlign {
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: auto; }
+  .myRowControl .formContact {
+    flex-direction: row;
+    height: auto;
+    justify-content: space-evenly; }
+    .myRowControl .formContact .headerContant {
+      margin-top: 10px; }
+    .myRowControl .formContact span {
+      font-size: 10px;
+      text-align: center; }
+  .myRowControl .flexFOrDiv {
+    flex-direction: row;
+    justify-content: center; }
+
+  .formPanel {
+    height: auto; }
+    .formPanel .flexFOrDiv {
+      flex-direction: row; }
+    .formPanel .contacts {
+      background-image: none; }
+
+  .map {
+    display: none; }
+
+  .contentBlock .row div {
+    text-align: center; }
+
+  .AboutUsBlock .flexForRow {
+    flex-direction: column-reverse; }
+  .AboutUsBlock .row img {
+    margin-bottom: 20px; }
+
+  .blockWithActivePhoto img {
+    margin-bottom: 40px;
+    width: 95%; }
+
+  .specialOffer .houseOffer img {
+    height: 355px;
+    max-height: 400px; }
+
+  .specialOffer {
+    width: 100%;
+    height: auto; }
+
+  .position_for_block img {
+    width: 100%;
+    height: 100%; }
+  .position_for_block span {
+    font-family: "Roboto Regular", Arial;
+    font-size: 17px; }
+  .position_for_block .footer_block {
+    text-transform: uppercase;
+    font-family: "Roboto Regular", Arial;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    width: 96.8%;
+    height: 50px; }
+
+  .navbar {
+    font-size: 89%; }
+
+  .container .specialOffer .houseOffer img {
+    margin-left: 3px;
+    width: 99%; } }
+
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,320 @@
+@media only screen and (max-width: 320px) {
+  /* line 5, ../sass/media.sass */
+  .formContact span:nth-child(3) {
+    margin-right: 0px; }
+
+  /* line 10, ../sass/media.sass */
+  .myRowControl .textAlign img:first-child {
+    margin-left: 10px; }
+  /* line 13, ../sass/media.sass */
+  .myRowControl form span {
+    letter-spacing: 1px;
+    margin-top: 10px; } }
+@media all and (min-width: 320px) and (max-width: 400px) {
+  /* line 22, ../sass/media.sass */
+  .blockWhithOffer .row .position_for_block .special {
+    width: 133px;
+    font-size: 14px; }
+  /* line 26, ../sass/media.sass */
+  .blockWhithOffer .row .position_for_block .media_for_block h1 {
+    font-size: 36px; } }
+@media screen and (max-width: 520px) {
+  /* line 30, ../sass/media.sass */
+  .position_for_block {
+    display: block;
+    height: 250px; }
+
+  /* line 34, ../sass/media.sass */
+  .parents h2 {
+    font-size: 25px; }
+
+  /* line 39, ../sass/media.sass */
+  .specialOffer .row .houseOffer img {
+    height: auto; }
+
+  /* line 41, ../sass/media.sass */
+  .footer_block {
+    display: flex;
+    flex-direction: column; }
+    /* line 44, ../sass/media.sass */
+    .footer_block .colorfull {
+      font-size: 12px; }
+
+  /* line 46, ../sass/media.sass */
+  #prev-btn {
+    display: flex;
+    align-items: center; }
+    /* line 49, ../sass/media.sass */
+    #prev-btn img {
+      width: 50%; }
+
+  /* line 51, ../sass/media.sass */
+  #next-btn {
+    display: flex;
+    justify-content: right;
+    align-items: center; }
+    /* line 55, ../sass/media.sass */
+    #next-btn img {
+      width: 50%; } }
+@media all and (max-width: 700px) {
+  /* line 59, ../sass/media.sass */
+  .my_row {
+    flex-direction: column; } }
+@media all and (max-width: 770px) {
+  /* line 65, ../sass/media.sass */
+  .specialOffer .miniHouse {
+    display: none; }
+  /* line 67, ../sass/media.sass */
+  .specialOffer .houseOffer {
+    display: none; }
+
+  /* line 70, ../sass/media.sass */
+  .specialOffer .myTool {
+    text-align: center;
+    margin: 40px auto; }
+    /* line 73, ../sass/media.sass */
+    .specialOffer .myTool a {
+      margin: auto; } }
+@media all and (min-width: 320px) and (max-width: 800px) {
+  /* line 77, ../sass/media.sass */
+  .blockWithSlider {
+    display: none; }
+
+  /* line 80, ../sass/media.sass */
+  #prev-btn img {
+    width: 70%; }
+
+  /* line 83, ../sass/media.sass */
+  #next-btn img {
+    width: 70%; }
+
+  /* line 85, ../sass/media.sass */
+  .my_row {
+    justify-content: center; }
+
+  /* line 87, ../sass/media.sass */
+  .class_for_P {
+    text-align: center; }
+
+  /* line 89, ../sass/media.sass */
+  .contactBLock {
+    max-height: 600px;
+    height: 517px; }
+    /* line 92, ../sass/media.sass */
+    .contactBLock .textAlign {
+      justify-content: space-around; }
+    /* line 96, ../sass/media.sass */
+    .contactBLock .formContact span span {
+      font-size: 10px; }
+
+  /* line 100, ../sass/media.sass */
+  .AboutUsBlock .row img {
+    width: 95%; }
+
+  /* line 104, ../sass/media.sass */
+  .specialOffer .houseOffer img {
+    height: 355px;
+    max-height: 400px; }
+
+  /* line 108, ../sass/media.sass */
+  .row .miniHouse {
+    padding-right: 16px;
+    padding-bottom: 10px; }
+
+  /* line 114, ../sass/media.sass */
+  .blockWhithOffer .row .position_for_block .footer_block {
+    width: 94.8%;
+    font-size: 11px; } }
+@media all and (min-width: 800px) and (max-width: 1000px) {
+  /* line 122, ../sass/media.sass */
+  .blockWhithOffer .row .position_for_block .footer_block {
+    text-transform: uppercase;
+    font-family: "Roboto Regular", Arial;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    width: 96%;
+    height: 50px; } }
+@media screen and (max-width: 990px) {
+  /* line 134, ../sass/media.sass */
+  .footer_menu {
+    margin-bottom: 0; }
+
+  /* line 136, ../sass/media.sass */
+  .colFOrdiv {
+    webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%; }
+
+  /* line 141, ../sass/media.sass */
+  .colForUnder {
+    webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%; }
+
+  /* line 146, ../sass/media.sass */
+  .panel {
+    display: block;
+    background-color: transparent; }
+    /* line 149, ../sass/media.sass */
+    .panel button {
+      outline: 0;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      font-size: 35px;
+      color: white; }
+
+  /* line 157, ../sass/media.sass */
+  .navigation .navbar {
+    margin-left: auto; }
+
+  /* line 159, ../sass/media.sass */
+  .activeBlock {
+    background-color: #FFFF00; }
+    /* line 161, ../sass/media.sass */
+    .activeBlock h2 {
+      text-align: center;
+      font-size: 100%; }
+
+  /* line 164, ../sass/media.sass */
+  .parents {
+    justify-content: center; }
+
+  /* line 167, ../sass/media.sass */
+  .contentBlock .row {
+    margin-bottom: 80px; }
+  /* line 169, ../sass/media.sass */
+  .contentBlock img {
+    width: 100%;
+    height: auto; }
+
+  /* line 172, ../sass/media.sass */
+  .hr_line {
+    display: none; }
+
+  /* line 174, ../sass/media.sass */
+  ul {
+    list-style: none; }
+
+  /* line 177, ../sass/media.sass */
+  .underSlider img {
+    margin-bottom: 20px;
+    display: block;
+    margin: auto; }
+
+  /* line 182, ../sass/media.sass */
+  .informBlock .row {
+    text-align: center; }
+
+  /* line 184, ../sass/media.sass */
+  .blockWithSlider .slick-next {
+    left: 861px; } }
+@media all and (max-width: 1200px) {
+  /* line 188, ../sass/media.sass */
+  .container {
+    overflow-x: hidden; }
+
+  /* line 192, ../sass/media.sass */
+  .underSlider .row div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  /* line 198, ../sass/media.sass */
+  .myRowControl .textAlign {
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: auto; }
+  /* line 202, ../sass/media.sass */
+  .myRowControl .formContact {
+    flex-direction: row;
+    height: auto;
+    justify-content: space-evenly; }
+    /* line 206, ../sass/media.sass */
+    .myRowControl .formContact .headerContant {
+      margin-top: 10px; }
+    /* line 208, ../sass/media.sass */
+    .myRowControl .formContact span {
+      font-size: 10px;
+      text-align: center; }
+  /* line 211, ../sass/media.sass */
+  .myRowControl .flexFOrDiv {
+    flex-direction: row;
+    justify-content: center; }
+
+  /* line 215, ../sass/media.sass */
+  .formPanel {
+    height: auto; }
+    /* line 217, ../sass/media.sass */
+    .formPanel .flexFOrDiv {
+      flex-direction: row; }
+    /* line 219, ../sass/media.sass */
+    .formPanel .contacts {
+      background-image: none; }
+
+  /* line 221, ../sass/media.sass */
+  .map {
+    display: none; }
+
+  /* line 225, ../sass/media.sass */
+  .contentBlock .row div {
+    text-align: center; }
+
+  /* line 228, ../sass/media.sass */
+  .AboutUsBlock .flexForRow {
+    flex-direction: column-reverse; }
+  /* line 231, ../sass/media.sass */
+  .AboutUsBlock .row img {
+    margin-bottom: 20px; }
+
+  /* line 234, ../sass/media.sass */
+  .blockWithActivePhoto img {
+    margin-bottom: 40px;
+    width: 95%; }
+
+  /* line 239, ../sass/media.sass */
+  .specialOffer .houseOffer img {
+    height: 355px;
+    max-height: 400px; }
+
+  /* line 242, ../sass/media.sass */
+  .specialOffer {
+    width: 100%;
+    height: auto; }
+
+  /* line 247, ../sass/media.sass */
+  .position_for_block img {
+    width: 100%;
+    height: 100%; }
+  /* line 250, ../sass/media.sass */
+  .position_for_block span {
+    font-family: "Roboto Regular", Arial;
+    font-size: 17px; }
+  /* line 253, ../sass/media.sass */
+  .position_for_block .footer_block {
+    text-transform: uppercase;
+    font-family: "Roboto Regular", Arial;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    width: 96.8%;
+    height: 50px; }
+
+  /* line 263, ../sass/media.sass */
+  .navbar {
+    font-size: 89%; }
+
+  /* line 268, ../sass/media.sass */
+  .container .specialOffer .houseOffer img {
+    margin-left: 3px;
+    width: 99%; } }
+
+/*# sourceMappingURL=media.css.map */
