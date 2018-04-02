@@ -1,7 +1,4 @@
-<?php
-//include_once "WhatWeDo.php";
 
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -179,10 +176,10 @@
         <div class="col-12">
             <div class="container padding_for_block">
                 <ul class="footer_menu">
-                    <li><a  id="project">проэктируем</a></li>
-                    <li><a id="build">строим</a></li>
-                    <li><a id="fix">ремонтируем</a></li>
-                    <li><a id="updateTheinterior">обновляем интерьер</a></li>
+                    <li><a class="buttonOffer" id="project">проэктируем</a></li>
+                    <li><a class="buttonOffer" id="build">строим</a></li>
+                    <li><a class="buttonOffer" id="fix">ремонтируем</a></li>
+                    <li><a class="buttonOffer" id="updateTheinterior">обновляем интерьер</a></li>
 
                 </ul>
             </div>
@@ -338,18 +335,18 @@
         </div>
     </div>
 </div>
-<div class="container blockWithSlider">
-    <div id="block-for-slider">
+<div class="container blockWithSlider d-none" >
+    <div id="block-for-slider" >
         <div id="viewport">
             <ul id="slidewrapper">
-                <li class="slide Design" ><img src="img/housePic-min.png"  width="262" height="148" alt="1" class="slide-img"></li>
-                <li class="slide Design" ><img src="img/housePic-min.png" width="262" height="148" alt="2" class="slide-img"></li>
-                <li class="slide Building"><img src="img/строительство-min.png" width="262" height="148" alt="3" class="slide-img"></li>
-                <li class="slide Building"><img src="img/строительство-min.png" width="262" height="148" alt="4" class="slide-img"></li>
-                <li class="slide Repairs"><img src="img/ремонт-min.png" alt="1" width="262" height="148" class="slide-img"></li>
-                <li class="slide Repairs"><img src="img/ремонт-min.png" alt="2" width="262" height="148" class="slide-img"></li>
-                <li class="slide Pools"><img src="img/бассейны-min.png" alt="3" width="262" height="148" class="slide-img"></li>
-                <li class="slide Pools"><img src="img/бассейны-min.png" alt="4" width="262" height="148" class="slide-img"></li>
+                <li class="slide" ><img src="img/housePic-min.png"width="262" height="148" alt="1" class="slide-img"></li>
+                <li class="slide" ><img src="img/housePic-min.png" width="262" height="148" alt="2" class="slide-img"></li>
+                <li class="slide"><img src="img/housePic-min.png" width="262" height="148" alt="3" class="slide-img"></li>
+                <li class="slide"><img src="img/housePic-min.png" width="262" height="148" alt="4" class="slide-img"></li>
+                <li class="slide"><img src="img/housePic-min.png" alt="1" width="262" height="148" class="slide-img"></li>
+                <li class="slide"><img src="img/housePic-min.png" alt="2" width="262" height="148" class="slide-img"></li>
+                <li class="slide"><img src="img/housePic-min.png" alt="3" width="262" height="148" class="slide-img"></li>
+                <li class="slide "><img src="img/housePic-min.png"  alt="4" width="262" height="148" class="slide-img"></li>
             </ul>
             <div id="prev-next-btns">
                 <div id="prev-btn">
@@ -365,19 +362,19 @@
 <div class="container underSlider">
     <div class="row">
         <div class="col-md-6 col-sm-12 col-lg-6 col-xl-3">
-            <a href="#"><img width="262" height="148" src="img/housePic-min.png" alt=""></a>
+            <a href="#" class="sliderButton" id="Design"><img width="262" height="148" src="img/housePic-min.png" alt=""></a>
             <span>ПРОЭКТИРОВАНИЕ И ДИЗАЙН</span>
         </div>
         <div class="col-md-6 col-sm-12 col-lg-6 col-xl-3">
-            <a href="#"><img width="262" height="148" src="img/строительство-min.png" alt=""></a>
+            <a  href="#" class="sliderButton" id="buildings"><img width="262" height="148" src="img/строительство-min.png" alt=""></a>
             <span>СТРОИТЕЛЬСТВО</span>
         </div>
         <div class="col-md-6 col-sm-12 col-lg-6 col-xl-3">
-            <a href="#"><img width="262" height="148" src="img/ремонт-min.png" alt=""></a>
+            <a href="#" class="sliderButton" id="rapeir"><img width="262" height="148" src="img/ремонт-min.png" alt=""></a>
             <span>РЕМОНТ</span>
         </div>
         <div class="col-md-6 col-sm-12 col-lg-6 col-xl-3">
-            <a href="#"><img width="262" height="148" src="img/бассейны-min.png" alt="">
+            <a href="#" class="sliderButton" id="landsCape"><img width="262" height="148" src="img/бассейны-min.png" alt="">
             </a>
             <span>БАСЕЙНЫ И ЛАНДШАФТ</span>
         </div>
@@ -631,7 +628,7 @@
 <script type="text/javascript">
     $("body").on("click", "a.anchor", function(){
         var idtop = $($(this).attr("href")).offset().top;
-        $('html,body').animate({scrollTop: idtop}, 8000);
+        $('html,body').animate({scrollTop: idtop}, 3000);
         return false;
     });
     $( "body" ).prepend( '<div id="preloader"><div class="spinner-sm spinner-sm-1" id="status"> </div></div>' );
@@ -639,7 +636,7 @@
         $('.preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
         $('body').delay(350).css({'overflow':'visible'});
     });
-    $( "a" ).click(function( event ) {
+    $( ".buttonOffer" ).click(function( event ) {
         var id = $(this).attr('id');
         event.preventDefault();
         $.post('WhatWeDo.php', {id: id},
@@ -650,6 +647,19 @@
         );
 
     });
+    $( ".sliderButton" ).click(function( event ) {
+        var id = $(this).attr('id');
+        event.preventDefault();
+        $(".blockWithSlider").removeClass( "d-none" );
+        $.post('sliderContent.php', {id: id},
+            function(data) {
+                console.log(data);
+                $('.blockWithSlider').html(data);
+            }
+        );
+
+    });
+
 </script>
 
 
