@@ -41,20 +41,23 @@ if($_POST['id'] === 'project'){
 }else{
     $CONTENT = $fixing;
 }
-$per = $CONTENT['img'];
-$p1 = $CONTENT['p1'];
-$colorFul = $CONTENT['colorFull'];
-$p1_1 = $CONTENT['p1_1'];
+
 echo "
 <div class=\"row \">
       <div class=\"col - xl - 6 col - sm - 12 position_for_block\">
 <img id=\"leftPic\" src=\"img/".$CONTENT['img']."\"height=\"447\"  alt=\"\">
-<span class=\"footer_block footerRight\">".$CONTENT['p']. "<span class=\"colorfull\">" .$CONTENT['colorFull']. "</span>" .$CONTENT['p_1']. "</span>
+  <span class=\"footer_block\">
+                <span>".$CONTENT['p']."<span class=\"colorfull colorfull1\">".$CONTENT['colorFull']."</span></span>
+            <span class=\"footerLeft\">".$CONTENT['p_1']."</span>
+            </span>   
    </div>
   <div class=\"col-xl-6 col-sm-12 position_for_block\">
             <img id=\"leftPic\" src=\"img/".$CONTENT['img2']."\"height=\"447\"  alt=\"\">
             <span  class=\"special\"  data-toggle=\"modal\" data-target=\"#myModal\">специальное  предложение</span>
-           <span class=\"footer_block footer2Right\">".$CONTENT['p2']. "<span class=\"colorfull\">".$CONTENT['colorFull2']. "</span>".$CONTENT['p2_1']."</span>
+           <span class=\"footer_block\">
+                <span>".$CONTENT['p2']. "<span class=\"colorfull\">".$CONTENT['colorFull2']. "</span></span>
+                   <span>".$CONTENT['p2_1']. "</span>
+                </span>
 
         </div>
    </div>

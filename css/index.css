@@ -17,11 +17,6 @@
   will-change: transform;
 }
 
-.slideout-open,
-.slideout-open body,
-.slideout-open .slideout-panel {
-  overflow: hidden;
-}
 
 .slideout-open .slideout-menu {
   display: block;

@@ -40,21 +40,22 @@
                 <form action="modal.php" method="post">
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <label for="inputEmail4">Почта</label>
-                            <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email">
-                        </div>
-                        <div class="form-group col-md-6">
                             <label for="Name">Имя</label>
                             <input type="text" name="name" class="form-control" id="Name" placeholder="Александр">
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputAddress">Адресс</label>
-                        <input type="text" name="adress" class="form-control" id="inputAddress" placeholder="ул.Плеханова 13а">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Почта</label>
+                            <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+
                     </div>
                     <div class="form-group">
                         <label for="inputTel">Телефон</label>
                         <input type="text" name="tel" class="form-control" id="inputTel" placeholder="+380630684458">
+                    </div>
+                    <div class="form-group">
+                        <label for="Textarea1">Коментарий</label>
+                        <textarea class="form-control" name="textArea" id="Textarea1" rows="3"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Заказать</button>
                 </form>
@@ -132,10 +133,10 @@
                 </div>
             </div>
             <div class="row marg_for_this_block">
-                <div class="col-md-6 col-sm-10 ">
+                <div class="col-md-6 col-sm-12 ">
                     <p class="class_for_P">Строительная компания <span class="color_for_span">№1</span></p>
                 </div>
-                <div class="col-md-6 col-sm-10 my_row">
+                <div class="col-md-6 col-sm-12 my_row">
                     <span class="fonts_for_block">Пн - Пт : 8:00 - 20:00 </span>
                     <span class="fonts_for_block">+1 (305) 753 9005</span>
                     <span>
@@ -145,14 +146,16 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-9 col-md-5 media_for_block">
-                    <h1>Строим вашу комфортную <br> жизнь</h1>
+                <div class="col-sm-12 col-md-5 media_for_block">
+                    <h1 class="my-4">Строим вашу комфортную <br> жизнь</h1>
                     <p class="text_block">Строительная Компания “MIAMIBuILDERS”<br>
                         Строит и ремонтирует эксклюзивные,
                         элитные резиденции, а также объекты
                         эконом класса </p>
-                    <a class="button padding_for_button active" href="#">наши услуги</a>
-                    <a class="button" href="#">последние проекты</a>
+                    <div class="buttonGrup">
+                        <a class="button padding_for_button active" href="#">наши услуги</a>
+                        <a class="button" href="#">последние проекты</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -192,13 +195,20 @@
     <div class="row ">
         <div class="col-xl-6 col-sm-12 position_for_block">
             <img id="leftPic" src="img/2-min.png" height="447"  alt="">
-            <span class="footer_block footerRight">РАЗРАБАТЫВАЕМ ДИЗАЙН<span class="colorfull colorfull1">ДОМОВ И РЕЗИДЕНЦИЙ</span><span class="footerLeft">НА ЛЮБОЙ ВКУС И БЮТЖЕТ</span></span>
+<!--            <span class="footer_block footerRight">РАЗРАБАТЫВАЕМ ДИЗАЙН<span class="colorfull colorfull1">ДОМОВ И РЕЗИДЕНЦИЙ</span></span>-->
+            <span class="footer_block">
+                <span>РАЗРАБАТЫВАЕМ ДИЗАЙН<span class="colorfull colorfull1">ДОМОВ И РЕЗИДЕНЦИЙ</span></span>
+            <span class="footerLeft">НА ЛЮБОЙ ВКУС И БЮТЖЕТ</span>
+            </span>
 
         </div>
         <div class="col-xl-6 col-sm-12 position_for_block">
             <img id="rightPic" src="img/картинка-min.png" height="447" alt="">
             <span  class="special"  data-toggle="modal" data-target="#myModal">специальное  предложение</span>
-            <span class="footer_block footer2Right">ПРЕДЛОЖЕНИЕРАЗРАБАТЫВАЕМ ДИЗАЙН<span class="colorfull colorfull12">ПОМЕЩЕНИЙ И ЗОН ОТДЫХА</span><span class="footer2Left">ЛЮБОЙ СЛОЖНОСТИ</span></span>
+            <span class="footer_block">
+                <span>ПРЕДЛОЖЕНИЕРАЗРАБАТЫВАЕМ ДИЗАЙН<span class="colorfull">ПОМЕЩЕНИЙ</span></span>
+                   <span> <span class="colorfull">И ЗОН ОТДЫХА</span>ЛЮБОЙ СЛОЖНОСТИ</span>
+                </span>
 
         </div>
     </div>
@@ -213,14 +223,14 @@
 <div class="container specialOffer">
     <div class="row ">
         <div class="col-md-4 col-sm-12 myTool">
-                    <span>Специальное предложение <br>
+                    <span class="mx-4">Специальное предложение <br>
                         до 25 марта
                     </span>
-            <p>
+            <p class="mx-4">
                 Получите поиск участка для строительства вашего дома
                 абсолютно бесплатно
             </p>
-            <a data-toggle="modal" data-target="#myModal">Узнать больше</a>
+            <a data-toggle="modal" data-target="#myModal" class="mx-4">Узнать больше</a>
         </div>
         <div class="col-md-1 col-sm-12  miniHouse">
             <img class="housePng" src="img/house%20-min.png" alt="">
@@ -269,8 +279,8 @@
             <img src="img/key-min.png" alt="">
             <span>Под ключ</span>
             <ul>
-                <li>Все виды строительных работ</li>
                 <li>поэтапная оплата</li>
+                <li>Все виды строительных работ</li>
                 <li>оптовые цены на строительные и
                     отделочные материалы
                 </li>
@@ -441,14 +451,14 @@
 <div class="container specialOffer">
     <div class="row ">
         <div class="col-md-4 col-sm-12 myTool">
-                    <span>Специальное предложение <br>
+                    <span class="mx-4">Специальное предложение <br>
                         до 25 марта
                     </span>
-            <p>
+            <p class="mx-4">
                 Получите поиск участка для строительства вашего дома
                 абсолютно бесплатно
             </p>
-            <a data-toggle="modal" data-target="#myModal">Узнать больше</a>
+            <a class="mx-4" data-toggle="modal" data-target="#myModal">Узнать больше</a>
         </div>
         <div class="col-md-1 col-sm-12  miniHouse">
             <img class="housePng" src="img/house%20-min.png" alt="">
@@ -510,7 +520,7 @@
                 и открыты к сострудничеству с покупателями,
                 желающими повысить качество и комфорт своей жизни.
             </p>
-            <a data-toggle="modal" data-target="#myModal">Перезвоните мне</a>
+            <a data-toggle="modal" data-target="#myModal" style="color: white">Перезвоните мне</a>
         </div>
     </div>
 </div>
@@ -574,7 +584,7 @@
                     <textarea name="coments" id="" cols="30" rows="10" placeholder="КОМЕНТАРИЙ">
 
                         </textarea><br>
-                    <button type="submit">ОТПРАВИТЬ</button>
+                    <button type="submit" id="formButton">ОТПРАВИТЬ</button>
 
                 </form>
             </div>

@@ -29,9 +29,16 @@ button span {
   /* line 21, ../sass/main.sass */
   .navbar ul {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly; }
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly; }
 
 /* line 30, ../sass/main.sass */
 .menu-section .menu-section-list a:hover {
@@ -53,7 +60,9 @@ button span {
 .specialOffer {
   margin-top: 48px;
   margin-bottom: 60px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   height: 307px;
   background-color: yellow;
@@ -62,8 +71,13 @@ button span {
   .specialOffer .myTool {
     margin-top: 40px;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 0px 20px 0 20px; }
     /* line 60, ../sass/main.sass */
     .specialOffer .myTool span {
@@ -90,7 +104,11 @@ button span {
       cursor: pointer; }
   /* line 80, ../sass/main.sass */
   .specialOffer .houseOffer {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     align-items: center; }
     /* line 84, ../sass/main.sass */
@@ -101,8 +119,13 @@ button span {
   .specialOffer .miniHouse {
     height: 100%;
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row-reverse; }
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse; }
     /* line 92, ../sass/main.sass */
     .specialOffer .miniHouse .housePng {
       width: 40px;
@@ -194,10 +217,17 @@ button span {
 
 /* line 167, ../sass/main.sass */
 .underSlider .row div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 0;
-  align-items: center; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 /* line 172, ../sass/main.sass */
 .underSlider span {
   color: black;
@@ -300,10 +330,16 @@ button span {
     pointer-events: none;
     position: absolute;
     top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: auto;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-image: url("../img/poligon-min.png");
     background-size: cover; }
   /* line 266, ../sass/main.sass */
@@ -313,25 +349,47 @@ button span {
 
 /* line 271, ../sass/main.sass */
 .myRowControl .flexFOrDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row-reverse; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse; }
 
 /* line 275, ../sass/main.sass */
 .textAlign {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 100%;
   height: 400px;
   padding: 0; }
 
 /* line 284, ../sass/main.sass */
 .formContact {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: left;
-  justify-content: space-evenly;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   width: 100%;
   height: 400px; }
 
@@ -364,7 +422,8 @@ button span {
     width: 264px;
     height: 110px;
     outline-color: #FFFF00;
-    box-shadow: 0 0 10px #FFFF00;
+    -webkit-box-shadow: 0 0 10px #FFFF00;
+            box-shadow: 0 0 10px #FFFF00;
     border: 1px solid; }
   /* line 319, ../sass/main.sass */
   .contactBLock form {
@@ -383,7 +442,8 @@ button span {
       background-color: white;
       padding: 5px 27px;
       outline-color: #FFFF00;
-      box-shadow: 0 0 10px #FFFF00;
+      -webkit-box-shadow: 0 0 10px #FFFF00;
+              box-shadow: 0 0 10px #FFFF00;
       cursor: pointer; }
   /* line 335, ../sass/main.sass */
   .contactBLock input {
@@ -391,16 +451,24 @@ button span {
     margin-bottom: 20px;
     width: 264px;
     height: 35px;
-    box-shadow: 0 0 10px #FFFF00;
+    -webkit-box-shadow: 0 0 10px #FFFF00;
+            box-shadow: 0 0 10px #FFFF00;
     padding: 0 10px; }
   /* line 342, ../sass/main.sass */
   .contactBLock .myRowControl {
     padding: 13px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 100%;
     width: 100%;
-    flex-direction: row;
-    align-items: center; }
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
   /* line 351, ../sass/main.sass */
   .contactBLock .contacts .myRowControl span {
     color: black; }
